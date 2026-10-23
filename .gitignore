@@ -1,0 +1,11 @@
+.DS_Store
+build/
+dist/
+# Design notes stay local
+docs/
+# Official Doop source, data and secrets are never committed (we don't redistribute AGPL source)
+app/
+data/
+.env*
+# mac/icon.png is your own local icon override (e.g. a logo you are allowed to use) — not committed
+mac/icon.png
